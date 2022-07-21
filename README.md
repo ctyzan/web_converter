@@ -5,7 +5,7 @@ You can pass a string containing headers and cookies to it, and it will return y
 
 ### Usage for headers:
 ```
->>> from web_converter.converter import convert
+>>> from web_converter import convert
 >>> string = 'Referer: https://github.com/'
 >>> example = convert(string)
 >>> print(example)
@@ -16,7 +16,7 @@ You can pass a string containing headers and cookies to it, and it will return y
 
 ### Usage for cookies:
 ```
->>> from web_converter.converter import convert_cookies
+>>> from web_converter import convert_cookies
 >>> cookies = 'session_id=aBrwmYi5G8CSST011Dkb'
 >>> example_cookies = convert_cookies(string)
 >>> print(example_cookies)
