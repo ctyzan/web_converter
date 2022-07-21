@@ -12,6 +12,7 @@ You can pass a string containing headers and cookies to it, and it will return y
 {'Referer': 'https://github.com/'}
 >>> print(type(example))
 <class 'dict'>
+```
 
 ### Usage for cookies:
 ```
@@ -22,3 +23,4 @@ You can pass a string containing headers and cookies to it, and it will return y
 {'session_id': 'aBrwmYi5G8CSST011Dkb'}
 >>> print(type(example_cookies))
 <class 'dict'>
+```
